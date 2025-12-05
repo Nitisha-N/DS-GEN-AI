@@ -94,18 +94,15 @@ print(*range(1, n + 1), sep="")
 
 
 **▶️ How to Run**
-Clone the repository:
+## How to Run
 
-bash
-Copy code
-git clone https://github.com/yourusername/yourrepo.git
-Navigate into the folder:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/yourrepo.git
 
-bash
-Copy code
-cd yourrepo
-Run any Python file:
+2. Navigate into the project folder:
+    cd yourrepo
 
-bash
-Copy code
-python filename.py
+3. Run any Python file:
+   python filename.py
+
