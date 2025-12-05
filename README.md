@@ -16,12 +16,11 @@ Each script follows clean coding practices and works with standard input/output 
 
 ---
 
-## 1️⃣ Weird or Not Weird
-**Link:** https://www.hackerrank.com/challenges/py-if-else/problem
+# HackerRank Python Solutions
 
 ```python
+# Weird or Not Weird
 n = int(input())
-
 if n % 2 == 1:
     print("Weird")
 else:
@@ -31,11 +30,8 @@ else:
         print("Weird")
     else:
         print("Not Weird")
-2️⃣ Arithmetic Operators
-Link: https://www.hackerrank.com/challenges/python-arithmetic-operators/problem
 
-python
-Copy code
+# Arithmetic Operators
 def add(x, y): return x + y
 def subtract(x, y): return x - y
 def multiply(x, y): return x * y
@@ -46,11 +42,8 @@ b = int(input())
 print(add(a, b))
 print(subtract(a, b))
 print(multiply(a, b))
-3️⃣ Division (Integer & Float)
-Link: https://www.hackerrank.com/challenges/python-division/problem
 
-python
-Copy code
+# Division
 def integer_division(a, b):
     return a // b
 
@@ -62,22 +55,16 @@ b = int(input())
 
 print(integer_division(a, b))
 print(float_division(a, b))
-4️⃣ Loops – Print Squares
-Link: https://www.hackerrank.com/challenges/python-loops/problem
 
-python
-Copy code
+# Loops – Print Squares
 def print_squares(n):
     for i in range(n):
         print(i * i)
 
 n = int(input())
 print_squares(n)
-5️⃣ Leap Year Function
-Link: https://www.hackerrank.com/challenges/write-a-function/problem
 
-python
-Copy code
+# Leap Year
 def is_leap(year):
     if year % 400 == 0:
         return True
@@ -89,11 +76,8 @@ def is_leap(year):
 
 year = int(input())
 print(is_leap(year))
-6️⃣ Print Sequence Without Spaces
-Link: https://www.hackerrank.com/challenges/python-print/problem
 
-python
-Copy code
+# Print Sequence Without Spaces
 def print_sequence(n):
     result = ""
     for i in range(1, n + 1):
@@ -102,13 +86,14 @@ def print_sequence(n):
 
 n = int(input())
 print_sequence(n)
-Short alternative:
 
-python
-Copy code
+# Short Alternative
 n = int(input())
 print(*range(1, n + 1), sep="")
-▶️ How to Run
+```
+
+
+**▶️ How to Run**
 Clone the repository:
 
 bash
