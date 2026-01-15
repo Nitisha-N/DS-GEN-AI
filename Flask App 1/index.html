@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Galaxy Fun Fact App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+
+    <div class="container">
+        <h2>🚀 Galaxy Fun Fact App</h2>
+
+        <form action="/showname" method="get">
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <button type="submit">Get Fun Fact</button>
+        </form>
+
+        {% if name %}
+            <h3 class="greeting">{{ greeting }},</h3>
+            <h1>{{ name }} ✨</h1>
+            <p class="fact">
+                🌠 Fun fact: {{ fun_fact }}
+            </p>
+        {% endif %}
+    </div>
+
+</body>
+</html>
