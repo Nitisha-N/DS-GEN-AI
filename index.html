@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Regex Matcher</title>
+
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont;
+            background: linear-gradient(135deg, #e0f2fe, #f8fafc);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            background: #ffffff;
+            padding: 32px;
+            width: 100%;
+            max-width: 720px;
+            border-radius: 14px;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #1e293b;
+        }
+
+        label {
+            display: block;
+            font-weight: 600;
+            color: #334155;
+            margin-bottom: 6px;
+        }
+
+        textarea, input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 18px;
+            font-size: 14px;
+            border-radius: 8px;
+            border: 1px solid #cbd5e1;
+        }
+
+        textarea:focus, input:focus {
+            outline: none;
+            border-color: #2563eb;
+        }
+
+        button {
+            background-color: #2563eb;
+            color: #ffffff;
+            padding: 12px 28px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.2s ease;
+        }
+
+        button:hover {
+            background-color: #1d4ed8;
+        }
+
+        .output {
+            margin-top: 24px;
+            background: #f1f5f9;
+            padding: 16px;
+            border-radius: 8px;
+        }
+
+        .error {
+            color: #dc2626;
+            font-weight: 500;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Regex Matcher</h2>
+
+    <label for="textInput">Test String</label>
+    <textarea id="textInput" rows="5" placeholder="Enter your test string here"></textarea>
+
+    <label for="regexInput">Regular Expression</label>
+    <input id="regexInput" type="text" placeholder="Example: \\b\\w+\\b">
+
+    <button onclick="handleSubmit()">Submit</button>
+
+    <div class="output" id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
