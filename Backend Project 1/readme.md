@@ -1,4 +1,4 @@
-** Regex Matcher Application (Flask) **
+## ** Regex Matcher Application (Flask) **
 
 This project is a simple Flask-based web application that replicates the core functionality of regex testing tool - regex101.
 
@@ -43,6 +43,7 @@ The objective of this project is to:
 
 - Regex evaluation is handled on the client side for simplicity
 
-** Conclusion **
+## Conclusion 
 
 This project demonstrates the integration of Flask with frontend logic to build a practical regex matching tool while maintaining a focused scope.
+
