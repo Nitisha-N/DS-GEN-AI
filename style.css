@@ -1,0 +1,115 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f2f4f7;
+}
+
+.container {
+    width: 450px;
+    margin: 60px auto;
+    padding: 26px;
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+h2, h3 {
+    text-align: center;
+    margin-bottom: 18px;
+    color: #2c2c2c;
+}
+
+/* form inputs */
+input {
+    width: 100%;
+    padding: 11px;
+    margin: 10px 0;
+    border-radius: 3px;
+    border: 1px solid #d1d5db;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #f97316; /* orange focus */
+}
+
+/* primary button */
+button {
+    width: 100%;
+    padding: 11px;
+    background-color: #f97316; /* main orange */
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+button:hover {
+    background-color: #ea580c; /* darker orange */
+}
+
+/* for alerts */
+.alert {
+    padding: 12px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.alert.error {
+    background-color: #fee2e2;
+    color: #991b1b;
+}
+
+.alert.success {
+    background-color: #ecfdf5;
+    color: #065f46;
+}
+
+/* for url list */
+ul {
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.url-item {
+    list-style: none;
+    background: #f8fafc;
+    padding: 11px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.url-item a {
+    color: #f97316;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.url-item a:hover {
+    text-decoration: underline;
+}
+
+.url-item small {
+    display: block;
+    color: #6b7280;
+    margin-top: 4px;
+}
+
+/* for links */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 16px;
+    text-decoration: none;
+    color: #f97316;
+}
+
+a:hover {
+    text-decoration: underline;
+}
